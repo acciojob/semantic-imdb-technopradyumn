@@ -1,16 +1,109 @@
+
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Dark Knight - Movie Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #181818;
+            color: white;
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        header, nav, main, aside, footer {
+            padding: 20px;
+        }
+
+        header {
+            background-color: #f5c518;
+            color: #181818;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #292929;
+            text-align: center;
+        }
+
+        nav a {
+            color: #f5c518;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        section, aside {
+            background-color: #252525;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #f5c518;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #292929;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <header>
+        <h1>The Dark Knight</h1>
+        <p>A legendary superhero crime thriller directed by Christopher Nolan.</p>
+    </header>
 
+    <nav>
+        <p>Explore the cast and memorable dialogue from the movie.</p>
+        <a id="nav-actor" href="#actor">Actors</a>
+        <a id="nav-quote" href="#quote">Quotes</a>
+    </nav>
+
+    <main>
+        <section id="summary">
+            <h2>Movie Summary</h2>
+            <p>
+                Batman joins forces with Lieutenant James Gordon and District
+                Attorney Harvey Dent to fight crime in Gotham City. Their efforts
+                are challenged by the Joker, a dangerous criminal who creates
+                chaos and tests the moral limits of the city's heroes.
+            </p>
+        </section>
+
+        <section id="actor">
+            <h2>Actors</h2>
+            <ul>
+                <li>Christian Bale as Bruce Wayne / Batman</li>
+                <li>Heath Ledger as the Joker</li>
+                <li>Aaron Eckhart as Harvey Dent</li>
+                <li>Gary Oldman as James Gordon</li>
+                <li>Michael Caine as Alfred Pennyworth</li>
+            </ul>
+        </section>
+
+        <section id="quote">
+            <h2>Favorite Quote</h2>
+            <blockquote>
+                "Why so serious?"
+            </blockquote>
+            <p>A memorable line associated with the Joker.</p>
+        </section>
+    </main>
+
+    <aside>
+        <h2>Movie Information</h2>
+        <p>IMDb Rating: 9.0/10</p>
+        <p>Release Date: July 18, 2008 (United States)</p>
+        <p>Genre: Action, Crime, Drama</p>
+    </aside>
+
+    <footer>
+        <p>Produced by: Christopher Nolan, Charles Roven, and Emma Thomas</p>
+    </footer>
 </body>
-
 </html>
